@@ -1,0 +1,8 @@
+methods: ["mesmer", "stardist", "maskrcnn", "cellpose", "unet", "unmicst"]
+radii: [2, 4, 6, 8, 10, 12, 14, 16]
+colors: ["purple", "red", "gold", "blue"]
+datapath: "/home/groups/ChangLab/dataset/HMS-TMA-TNP/DATA-03292022/"
+resultsdir: "/home/groups/ChangLab/dharani/seg_eval/adjusted_ratios_luke/results_unequal_0.66"
+pmaskdir: "/home/groups/ChangLab/dharani/seg_eval/adjusted_ratios_luke/results_unequal_0.66"
+thresh: 0.66
+operator: ">"
