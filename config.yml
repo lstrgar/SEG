@@ -1,0 +1,6 @@
+methods: ["mesmer", "stardist", "maskrcnn", "cellpose", "unet"]
+radii: [2, 4, 6, 8, 10, 12, 14, 16]
+colors: ["purple", "red", "green", "gold", "pink"]
+datapath: "/home/groups/ChangLab/dataset/HMS-TMA-TNP/DATA-03292022"
+resultsdir: "/home/groups/ChangLab/dataset/HMS-TMA-TNP/DATA-03292022/test-results"
+num_agree: 3
