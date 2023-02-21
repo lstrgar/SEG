@@ -1,4 +1,9 @@
-# seg-eval
+# A Framework for Comparing and Selecting from Several Segmentation Methods in Absence of Ground Truth labels
+
+## Jupyter Notebook
+The 'Segmentation Evaluation Methods Breakdown.ipynb' gives a step-by-step breakdown of the process used in the accompanying paper.
+
+## CLI interface
 The `eval.py` script does all the work here. This depends on a config yaml file in this case just called `config.yaml`. The data inputs are different segmentation masks for the same samples coming from different segmentation methods. The idea is to develop an ensemble based approach to approximate a "ground truth" label for the segmentation against which each individual mask can be evaluated. 
 
 If you open the config file you'll see a list of methods and a specified data directory. The masks for each method are assumed to live under `${data_dir}/${method}` and across methods each mask should share a commond name reflective of the underlying data sample it can be associated with. For an example see this directory on exacloud: ``/home/groups/ChangLab/dataset/HMS-TMA-TNP/DATA-03292022`. This is an example of actual inputs / outputs from running this script. 
