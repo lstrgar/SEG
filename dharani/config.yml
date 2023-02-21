@@ -1,7 +1,0 @@
-methods: ["Mesmer", "Stardist", "Cellpose", "UnMicst"]
-radii: [4, 8, 12, 16, 20, 24, 28, 32]
-colors: ["purple", "red", "gold", "blue"]
-datapath: "/home/groups/ChangLab/dharani/OHSU-TMA/Segmentations"
-resultsdir: "/home/groups/ChangLab/dharani/OHSU-TMA/adjusted_ratios/results_mscx_overall_equal"
-pmaskdir: "/home/groups/ChangLab/dharani/OHSU-TMA/adjusted_ratios/results_mscx_overall_equal"
-num_agree: 3
