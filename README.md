@@ -1,6 +1,6 @@
 # A Framework for Comparing and Selecting from Several Segmentation Methods in Absence of Ground Truth labels
 
-![seg-eval](src/seg_eval_fig.jpg)
+![seg-eval](/src/seg_eval_fig.jpg)
 
 ## Jupyter Notebook
 The 'Segmentation Evaluation Methods Breakdown.ipynb' notebook gives a step-by-step breakdown of the process used in the accompanying paper.
