@@ -1,7 +1,7 @@
 # A Framework for Comparing and Selecting from Several Segmentation Methods in Absence of Ground Truth labels
-
+![seg-eval](figures/seg_eval_fig.jpg "Evaluation Pipeline")
 ## Jupyter Notebook
-The 'Segmentation Evaluation Methods Breakdown.ipynb' gives a step-by-step breakdown of the process used in the accompanying paper.
+The 'Segmentation Evaluation Methods Breakdown.ipynb' notebook gives a step-by-step breakdown of the process used in the accompanying paper.
 
 ## CLI interface
 The `eval.py` script does all the work here. This depends on a config yaml file in this case just called `config.yaml`. The data inputs are different segmentation masks for the same samples coming from different segmentation methods. The idea is to develop an ensemble based approach to approximate a "ground truth" label for the segmentation against which each individual mask can be evaluated. 
