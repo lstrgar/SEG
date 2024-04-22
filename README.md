@@ -6,7 +6,7 @@ And our poster from the HTAN Summer Meeting 2022 [here](https://github.com/lstrg
 
 ## Overview
  
-![seg-eval](/src/seg_eval_fig.png)
+![seg-eval](seg_eval_fig.png)
 
 ## Jupyter Notebook
 The 'Segmentation Evaluation Methods Breakdown.ipynb' notebook gives a step-by-step breakdown of the process used in the accompanying paper.
