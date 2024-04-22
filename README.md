@@ -2,7 +2,7 @@
 
 Find the bioRxiv pre-print [here](https://www.biorxiv.org/content/10.1101/2023.02.23.529809v1)!
 
-And our poster from the HTAN Summer Meeting 2022 [here](https://github.com/lstrgar/seg-eval/files/9339751/HTAN_Abstract_TNP-TMA_analysis_final.pdf)
+And our poster from the HTAN Summer Meeting 2022 [here](https://github.com/lstrgar/seg-eval/files/9339751/HTAN_Abstract_TNP-TMA_analysis_final.pdf)!
 
 ## Overview
  
