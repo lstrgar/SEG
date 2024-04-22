@@ -1,5 +1,11 @@
 # A Framework for Comparing and Selecting from Several Segmentation Methods in Absence of Ground Truth labels
 
+Find the bioRxiv pre-print [here](https://www.biorxiv.org/content/10.1101/2023.02.23.529809v1)!
+
+And our poster from the HTAN Summer Meeting 2022 [here](https://github.com/lstrgar/seg-eval/files/9339751/HTAN_Abstract_TNP-TMA_analysis_final.pdf)
+
+## Overview
+ 
 ![seg-eval](/src/seg_eval_fig.png)
 
 ## Jupyter Notebook
@@ -14,7 +20,4 @@ Two other important parameters in the config file are `num_agree` and `radii`. T
 
 In the `eval.py` script you'll see three command line flags that can be passed. To run the entire script you should pass all three. If you run them separately they must be computed in serial. 
 
-For more information you may refer to the following poster -- 
 
-
-[HTAN_Abstract_TNP-TMA_analysis_final.pdf](https://github.com/lstrgar/seg-eval/files/9339751/HTAN_Abstract_TNP-TMA_analysis_final.pdf)
